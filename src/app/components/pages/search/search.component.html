@@ -1,0 +1,7 @@
+<div class="mx-auto w-25 mt-3">
+  <div class="input-group mb-3">
+    <input #s (keyup.enter)="search(s.value)" [value]="searchTerm" type="text" class="form-control" placeholder="Search Product">
+    <span class="input-group-text searchButton" (click)="search(s.value)">Search</span>
+  </div>
+</div>
+

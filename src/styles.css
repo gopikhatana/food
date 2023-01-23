@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Command alt + Z */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+*{ box-sizing: border-box; padding: 0; margin: 0;}
+
+html{ font-size:16px; }
+
+html, body{ font-family: "Quicksand", "sand-serif";}
+a{text-decoration: none;}
